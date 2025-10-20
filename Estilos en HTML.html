@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - Cuatro párrafos con estilo</title>
+    <style>
+        /* Declaraciones CSS usadas una sola vez */
+        body {
+            background: aqua;        /* Fondo de la página */
+            font-family: verdana;    /* Fuente para todo el cuerpo */
+            font-size: 20px;         /* Tamaño de fuente para todo el cuerpo */
+            color: red;              /* Color de texto por defecto para el cuerpo */
+        }
+
+        /* Estilos generales para los párrafos */
+        p {
+            margin: 10px 0;          /* Espacio vertical entre párrafos */
+            padding: 10px;           /* Relleno dentro de cada párrafo */
+            font-weight: bold;       /* Negrita para el texto (para coincidir con la imagen) */
+        }
+
+        /* Clases para alineación */
+        .centrado {
+            text-align: center;      /* Alineación central */
+        }
+        .derecha {
+            text-align: right;       /* Alineación a la derecha */
+        }
+
+        /* Clase para fondo plata */
+        .fondo-plata {
+            background: silver;      /* Fondo de color plata */
+        }
+
+        /* Clase para texto azul */
+        .texto-azul {
+            color: blue;             /* Color de texto azul (sobrescribe el rojo por defecto) */
+        }
+    </style>
+</head>
+<body>
+    <p class="centrado">Texto centrado.</p>
+    <p class="centrado fondo-plata">Texto centrado sobre fondo de color plata.</p>
+    <p class="derecha texto-azul">Texto alineado a la derecha.</p>
+    <p class="centrado fondo-plata">Otro texto centrado sobre fondo de color plata.</p>
+</body>
+</html>
